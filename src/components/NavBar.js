@@ -70,10 +70,7 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* Add padding to the top of the body */}
       <div style={{ paddingTop: '80px' }}>
-        {/* Your other components go here */}
       </div>
     </>
   );
