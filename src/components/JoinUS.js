@@ -114,7 +114,7 @@ class JoinUS extends Component {
                   <Card.Text>
                   Do you have knowledgable information about tech and are eager to teach?
                   </Card.Text>
-                  <Button variant="link" style={mentor}>Become a Mentor</Button>
+                  <Button href="https://forms.gle/eJ5FuQ5kUsyNSR718" variant="link" style={mentor}>Become a Mentor</Button>
                 </Card.Body>
               </Card>
 
@@ -146,7 +146,7 @@ class JoinUS extends Component {
                   <Card.Text>
                   Want to help out? Apply here and we'll set you up with a task!
                   </Card.Text>
-                  <Button variant="link" style={volunteer}>Become a Volunteer</Button>
+                  <Button variant="link" href="https://forms.gle/eJ5FuQ5kUsyNSR718" style={volunteer}>Become a Volunteer</Button>
                 </Card.Body>
               </Card>
             </CardGroup>

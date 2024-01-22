@@ -56,7 +56,7 @@ const Footer = () => {
 
                     <RowSocial>
 					 {/* Social media icons directly in Footer.js */}
-					 <SocialIconsContainer>
+					 {/* <SocialIconsContainer>
                               <div id="contact-socials" className="socials">
                                 <a href="mailto::info@ellehacks.com">
                                   <img className="social-icons" src="../assets/images/socials/ic_round-email.png" alt="email" />
@@ -77,8 +77,8 @@ const Footer = () => {
                                   <img className="social-icons" src="../assets/images/socials/facebook.png" alt="facebook" />
                                 </a>
                               </div>
-                     </SocialIconsContainer>
-                     </RowSocial>
+                     </SocialIconsContainer>*/}
+                     </RowSocial> 
 
                             <RowSocial>
                      {/* Contact section */}
