@@ -130,7 +130,7 @@ class JoinUS extends Component {
                     <Card.Text>
                       Come out and join us for ElleHacks 2024
                     </Card.Text>
-                  <Button variant="link" href="https://docs.google.com/forms/d/e/1FAIpQLScgC8tMJAb8RJmOTAdPYisk_pyDoVxosDGI7Bqq51Dr4AhnCQ/viewform?pli=1" style={hacker}>Become a Hacker</Button>
+                  <Button variant="link" href="" style={hacker}>Applications are closed</Button>
                 </Card.Body>
               </Card>
 
