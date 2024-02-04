@@ -8,6 +8,7 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import JoinUS from './components/JoinUS';
 import FAQ from './components/FAQ';
+import MeetOurSponsors from './components/MeetOurSponsors'
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Home id="home" />
         <AboutUs id="aboutus" />
         <JoinUS id="joinus" />
+        <MeetOurSponsors />
         <FAQ id="faq" />
         <Footer />
       </div>
