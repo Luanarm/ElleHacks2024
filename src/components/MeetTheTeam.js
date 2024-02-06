@@ -116,7 +116,7 @@ function MeetTheTeam() {
             <Member name="Luana Madeira" role="IT Director" img={img11IT} link="https://www.linkedin.com/in/luanamadeira/" />
             <Member name="Dimitra Balasingam" role="IT Executive" img={img1IT} link="https://www.linkedin.com/in/dimitra-balasingam-116684239" />
             {/* <Member name="Thanuj Hejitha Karunadhipathi Weera" role="IT Executive" img={img2IT} link="https://www.linkedin.com/in/hejithaw/" /> */}
-            <Member name="Thanuj Weera" role="IT Executive" img={img2IT} link="https://www.linkedin.com/in/hejithaw/" />
+            <Member name="Hejitha Weera" role="IT Executive" img={img2IT} link="https://www.linkedin.com/in/hejithaw/" />
             <Member name="Hulya Yasar" role="IT Executive" img={img3IT} link="https://www.linkedin.com/in/hulyayasar/" />
             
             <Member name="Julia Da Silva" role="IT Executive" img={img4IT} link="https://www.linkedin.com/in/julia-da-silva-9a2b25242/" />
