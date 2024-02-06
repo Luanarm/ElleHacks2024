@@ -1,0 +1,172 @@
+.team {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap if necessary */
+  justify-content: center; /* Center items horizontally */
+}
+:root {
+  --margin: 0.5%;
+  --border-radius: 0.5%;
+  --padding: 0.25%;
+  --padding-left: 0.5%;
+  --padding-right: 0.5%;
+  --transition-duration: 0.3s;
+  --image-width: 10vh;
+  --image-height: 10vh;
+  --border-width: 0.25vh;
+  --name-max-width: 10vh;
+  --font-size: 1.2vh;
+  --margin-block-start: 1vh;
+  --margin-inline-start: 0;
+  --margin-inline-end: 0;
+}
+
+
+
+.team-member {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 1%;
+  border-radius: 1%;
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  transition: var(--transition-duration);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  text-align: center;
+}
+
+.team-member:hover {
+  box-shadow: 4px 4px 20px 0 rgb(0, 0, 0, 40%), -4px -4px 20px 0 rgba(252, 92, 92, 0.8);
+}
+
+/* Images */
+
+.image {
+  width: var(--image-width);
+  height: var(--image-height);
+  margin: 0 auto;
+}
+
+.team-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: var(--image-width);
+  height: var(--image-height);
+  border-radius: 100%;
+  border-bottom: solid var(--border-width) #A45555;
+}
+
+.team-name {
+  color: white;
+  font-style: normal;
+  margin-bottom: 0;
+  max-width: var(--name-max-width);
+  font-size: 3vh; /* Adjust the value as needed */
+  text-align: center;
+}
+
+
+.team-title {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  margin-top: var(--margin);
+  font-size: 1vh; 
+}
+
+.team-member h4 {
+  display: block;
+  font-size: var(--font-size);
+  margin-block-start: var(--margin-block-start);
+  /* margin-block-end: 1.33em; */
+  margin-inline-start: var(--margin-inline-start);
+  margin-inline-end: var(--margin-inline-end);
+  font-weight: bold;
+  font-size: 1.5vh; /* Adjust the value as needed */
+}
+
+@media only screen and (max-width: 600px) {
+
+  :root {
+    --margin: 0.5%;
+    --border-radius: 0.5%;
+    --padding: 0.25%;
+    --padding-left: 0.5%;
+    --padding-right: 0.5%;
+    --transition-duration: 0.3s;
+    --image-width: 4vh; 
+    --image-height: 4vh; 
+    --border-width: 0.25vh;
+    --name-max-width: 10vh; /* Adjusted for better responsiveness */
+    --font-size: 1vh;
+    --margin-block-start: 1vh;
+    --margin-inline-start: 0;
+    --margin-inline-end: 0;
+  }
+  
+  .team-member {
+    display: inline-block;
+    width: calc(100% / 7 - 2%); /* Adjusted width to fit seven cards in a row with a little gap */
+    margin: 1%; /* Adjusted margin for spacing between cards */
+    border-radius: 1%;
+    padding: 1%; /* Increased padding for better spacing */
+    transition: var(--transition-duration);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-align: center;
+  }
+  
+  .team-member:hover {
+    box-shadow: 4px 4px 20px 0 rgb(0, 0, 0, 40%), -4px -4px 20px 0 rgba(252, 92, 92, 0.8);
+  }
+  
+  /* Images */
+  
+  .image {
+    width: 100%; /* Adjusted to occupy 100% of the parent container */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin: 0 auto;
+  }
+  
+  .team-img {
+    margin: 0 auto;
+    width: var(--image-width);
+    height: var(--image-height);
+    border-radius: 100%;
+    border-bottom: solid var(--border-width) #A45555;
+  }
+  
+  .team-title {
+    color: white;
+    font-style: normal;
+    text-align: center;
+    margin-top: var(--margin);
+    font-size: 0.8vh; 
+  }
+  
+  .team-member h4 {
+    display: block;
+    font-size: var(--font-size);
+    margin-block-start: var(--margin-block-start);
+    margin-inline-start: var(--margin-inline-start);
+    margin-inline-end: var(--margin-inline-end);
+    font-weight: bold;
+    color: white;
+    font-style: normal;
+    margin-bottom: 0;
+    max-width: var(--name-max-width);
+    font-size: 0.9vh; /* Adjust the value as needed */
+  }
+}
+
+
+
