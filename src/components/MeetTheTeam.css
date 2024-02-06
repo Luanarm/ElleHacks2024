@@ -1,7 +1,7 @@
 .team {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap if necessary */
-  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; 
+  justify-content: center; 
 }
 :root {
   --margin: 0.5%;
@@ -25,8 +25,8 @@
 .team-member {
   display: inline-block;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+  align-items: center;
+  justify-content: center; 
   margin: 1%;
   border-radius: 1%;
   padding: 0.5%;
@@ -55,8 +55,8 @@
 .team-img {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+  align-items: center; 
+  justify-content: center; 
   width: var(--image-width);
   height: var(--image-height);
   border-radius: 100%;
@@ -68,7 +68,7 @@
   font-style: normal;
   margin-bottom: 0;
   max-width: var(--name-max-width);
-  font-size: 3vh; /* Adjust the value as needed */
+  font-size: 3vh; 
   text-align: center;
 }
 
@@ -89,7 +89,7 @@
   margin-inline-start: var(--margin-inline-start);
   margin-inline-end: var(--margin-inline-end);
   font-weight: bold;
-  font-size: 1.5vh; /* Adjust the value as needed */
+  font-size: 1.5vh; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,7 +104,7 @@
     --image-width: 4vh; 
     --image-height: 4vh; 
     --border-width: 0.25vh;
-    --name-max-width: 10vh; /* Adjusted for better responsiveness */
+    --name-max-width: 10vh; 
     --font-size: 1vh;
     --margin-block-start: 1vh;
     --margin-inline-start: 0;
@@ -113,10 +113,10 @@
   
   .team-member {
     display: inline-block;
-    width: calc(100% / 7 - 2%); /* Adjusted width to fit seven cards in a row with a little gap */
-    margin: 1%; /* Adjusted margin for spacing between cards */
+    width: calc(100% / 7 - 2%); 
+    margin: 1%; 
     border-radius: 1%;
-    padding: 1%; /* Increased padding for better spacing */
+    padding: 1%; 
     transition: var(--transition-duration);
     transition-duration: var(--transition-duration);
     transition-timing-function: ease;
@@ -132,8 +132,8 @@
   /* Images */
   
   .image {
-    width: 100%; /* Adjusted to occupy 100% of the parent container */
-    height: auto; /* Auto height to maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
     margin: 0 auto;
   }
   
@@ -164,7 +164,7 @@
     font-style: normal;
     margin-bottom: 0;
     max-width: var(--name-max-width);
-    font-size: 0.9vh; /* Adjust the value as needed */
+    font-size: 0.9vh; 
   }
 }
 
