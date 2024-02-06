@@ -5,8 +5,16 @@ import Card from "react-bootstrap/Card";
 import "./MeetOurSponsors.css";
 
 function MeetTheTeam() {
+
+  const styles ={
+    backgroundColor: "#712323",
+    padding: "5%"
+  }
+
   return (
-    <div className="App" id="meet-our-sponsors-section">
+
+    
+    <div className="App"  style={styles} id="meet-our-sponsors-section">
       <div class="container-fluid-xl"></div>
       <h2 className="text-white text-center text-9xl pt-6">Meet Our Sponsors</h2>
 
