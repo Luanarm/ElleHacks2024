@@ -1,13 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+}
+
 .custom-card img {
   max-width: 100%;
   max-height: 100%;
-  
 }
 
 .custom-card {
   max-width: 500px;
   max-height: 300px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  justify-content: center;
+  margin-right: 10px; /* Adjusted to margin-right instead of margin-left */
 }

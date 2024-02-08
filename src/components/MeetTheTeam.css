@@ -1,8 +1,4 @@
-.team {
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap if necessary */
-  justify-content: center; /* Center items horizontally */
-}
+
 :root {
   --margin: 0.5%;
   --border-radius: 0.5%;
@@ -10,11 +6,11 @@
   --padding-left: 0.5%;
   --padding-right: 0.5%;
   --transition-duration: 0.3s;
-  --image-width: 10vh;
-  --image-height: 10vh;
+  --image-width: 9vh;
+  --image-height: 9vh;
   --border-width: 0.25vh;
   --name-max-width: 10vh;
-  --font-size: 1.2vh;
+  --font-size: 1.5vh;
   --margin-block-start: 1vh;
   --margin-inline-start: 0;
   --margin-inline-end: 0;
@@ -24,9 +20,9 @@
 
 .team-member {
   display: inline-block;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+/* justify-content: center; Center items vertically */
   margin: 1%;
   border-radius: 1%;
   padding: 0.5%;
@@ -68,7 +64,7 @@
   font-style: normal;
   margin-bottom: 0;
   max-width: var(--name-max-width);
-  font-size: 3vh; /* Adjust the value as needed */
+  font-size: 2vh; /* Adjust the value as needed */
   text-align: center;
 }
 
