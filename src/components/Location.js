@@ -38,7 +38,7 @@ function Location() {
     return (
         <div id="location">
             <div>
-                <h2 className="text-white text-left sm:text-4xl md:text-3xl lg:text-6xl p-4">Location</h2>
+            <h1 class="text-white text-left font-bold sm:text-4xl md:text-3xl lg:text-6xl p-5">Location</h1>
             </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
                 <div style={{ flex: '50%', padding: '10px' }}>

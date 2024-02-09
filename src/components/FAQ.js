@@ -45,8 +45,8 @@ const FAQ = () => {
           }
         }
       `}</style>
-      <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold">FAQ</h1>
-      <div className="faq-container">
+      <h1 class="text-white text-left font-bold sm:text-4xl md:text-3xl lg:text-6xl p-5">FAQ</h1>
+      <div className="faq-container" style={{padding:'20px'}}>
         <div className="faq-column">
           <div className="faq-item">
             <h3

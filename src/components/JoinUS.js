@@ -97,7 +97,7 @@ class JoinUS extends Component {
       <>
         {/* Join Us Section */}
         <div id="joinus" style={joinUsStyle}>
-          <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold">Join Us</h1>
+        <h1 class="text-white text-left font-bold sm:text-4xl md:text-3xl lg:text-6xl p-5">Join us</h1>
 
           {/* Main Content Grid */}
           <div className="container">
