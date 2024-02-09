@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.2b3943b3.css",
-    "main.js": "./static/js/main.20d8c7fa.js",
+    "main.css": "./static/css/main.1d33eb20.css",
+    "main.js": "./static/js/main.33f7e487.js",
     "static/js/787.cc2aee18.chunk.js": "./static/js/787.cc2aee18.chunk.js",
     "static/media/ElleHacks2024-06.jpg": "./static/media/ElleHacks2024-06.37e22afdf27a129fe56e.jpg",
     "static/media/ElleHacks2024-02.jpg": "./static/media/ElleHacks2024-02.6c16576a8a44bacf721d.jpg",
@@ -61,12 +61,12 @@
     "static/media/Aditi_headshot.jpeg": "./static/media/Aditi_headshot.541a543494431e51bb00.jpeg",
     "static/media/Huiling_tang_headshot.jpg": "./static/media/Huiling_tang_headshot.d172d3db7331fb38d31e.jpg",
     "index.html": "./index.html",
-    "main.2b3943b3.css.map": "./static/css/main.2b3943b3.css.map",
-    "main.20d8c7fa.js.map": "./static/js/main.20d8c7fa.js.map",
+    "main.1d33eb20.css.map": "./static/css/main.1d33eb20.css.map",
+    "main.33f7e487.js.map": "./static/js/main.33f7e487.js.map",
     "787.cc2aee18.chunk.js.map": "./static/js/787.cc2aee18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3943b3.css",
-    "static/js/main.20d8c7fa.js"
+    "static/css/main.1d33eb20.css",
+    "static/js/main.33f7e487.js"
   ]
 }
