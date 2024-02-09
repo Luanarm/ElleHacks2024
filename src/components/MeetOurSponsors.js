@@ -79,7 +79,7 @@ const styles ={
                 <div class="flex grid-cols-4 gap-5 place-items-center place-content-center justify-center">
                   <Card className="custom-card mx-auto justify-center"> 
                     <a href="https://www.scotiabank.com/ca/en/personal.html" target="_blank" rel="noreferrer" class="centered-image">
-                      <Card.Img variant="top" src={Scotiabank} className="smaller-image" style={{ height: '200px' }} />
+                      <Card.Img variant="top" src={Scotiabank} className="smaller-image" />
                     </a>
                   </Card>
                 </div>
@@ -90,7 +90,7 @@ const styles ={
                 <div class="flex grid-cols-4 gap-5 place-items-center place-content-center justify-center">
                   <Card className="custom-card mx-auto justify-center"> 
                     <a href="https://environicsanalytics.com/en-ca/home" target="_blank" rel="noreferrer" class="centered-image">
-                      <Card.Img variant="top" src={EnvironicsAnalytics} className="smaller-image"  style={{ height: '200px' }}/>
+                      <Card.Img variant="top" src={EnvironicsAnalytics} className="smaller-image" />
                     </a>
                   </Card>
                 </div>
@@ -106,35 +106,38 @@ const styles ={
       <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.pg.ca/en-ca/" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Pg} className="smaller-image" style={{ width: '100%', height: '180px' }} />
+            <Card.Img variant="top" src={Pg} className="smaller-image" style={{ width: '80%', height: '150px' }} />
           </a>
         </Card>
       </div>
+
+      <div class="col-lg-4 col-md-6 mb-3">
+        <Card className="custom-card mx-auto justify-content-center"> 
+          <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer" class="centered-image">
+            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '70%', height: '150px', padding:'10px' }} />
+          </a>
+        </Card>
+      </div>
+
       <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.kpmpower.com/" target="_blank" rel="noreferrer" class="centered-image"> 
-            <Card.Img variant="top" src={Kpm} className="smaller-image" style={{ width: '100%', height: '180px' }} />
+            <Card.Img variant="top" src={Kpm} className="smaller-image" style={{ width: '100%', height: '150px' }} />
           </a>
         </Card>
       </div>
       <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.accenture.com/ca-en" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Accenture} className="smaller-image" style={{ width: '100%', height: '180px' }} />
+            <Card.Img variant="top" src={Accenture} className="smaller-image" style={{ width: '100%', height: '150px' }} />
           </a>
         </Card>
       </div>
-      <div class="col-lg-4 col-md-6 mb-3">
-        <Card className="custom-card mx-auto justify-content-center"> 
-          <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '100%', height: '180px', padding:'10px' }} />
-          </a>
-        </Card>
-      </div>
+      
       <div class="col-lg-3 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.cgi.com/en" target="_blank" rel="noreferrer" class="centered-image" >
-            <Card.Img variant="top" src={Cgi} className="smaller-image" style={{ width: '100%', height: '180px',padding:'40px' }} />
+            <Card.Img variant="top" src={Cgi} className="smaller-image" style={{ width: '100%', height: '150px',padding:'40px' }} />
           </a>
         </Card>
       </div>
@@ -150,28 +153,28 @@ const styles ={
     <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://developer.microsoft.com/en-us/reactor/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Microsoft} className="smaller-image" style={{ width: '100%', height: '150px' }} />
+          <Card.Img variant="top" src={Microsoft} className="smaller-image" style={{ width: '100%', height: '120px' }} />
         </a>
       </Card>
     </div>
     <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://investbrampton.ca/locate-here/innovation-district/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Brampton} className="smaller-image" style={{ width: '100%', height: '150px' }}/>
+          <Card.Img variant="top" src={Brampton} className="smaller-image" style={{ width: '100%', height: '120px', padding:'20px' }}/>
         </a>
       </Card>
     </div>
     <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://www.redbull.com/ca-en/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '150px', padding:'40px' }}/>
+          <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '120px', padding:'10px' }}/>
         </a>
       </Card>
     </div>
     <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://mule.to/p5it" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: '100%', height: '150px',padding:'5px' }}/>
+          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: 'auto', height: '110px'}}/>
         </a>
       </Card>
     </div>
