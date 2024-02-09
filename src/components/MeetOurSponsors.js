@@ -103,38 +103,38 @@ const styles ={
   <div class="bronze-sponsors text-center">
   <h2 class="text-white sm:text-4xl md:text-3xl lg:text-6xl p-4">Bronze Sponsors</h2>
     <div class="d-flex justify-content-center align-items-center flex-wrap">
-      <div class="col-lg-3 col-md-6 mb-3">
+      <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.pg.ca/en-ca/" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Pg} className="smaller-image" style={{ width: '100%', height: '150px' }} />
+            <Card.Img variant="top" src={Pg} className="smaller-image" style={{ width: '100%', height: '180px' }} />
           </a>
         </Card>
       </div>
-      <div class="col-lg-3 col-md-6 mb-3">
+      <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.kpmpower.com/" target="_blank" rel="noreferrer" class="centered-image"> 
-            <Card.Img variant="top" src={Kpm} className="smaller-image" style={{ width: '100%', height: '150px' }} />
+            <Card.Img variant="top" src={Kpm} className="smaller-image" style={{ width: '100%', height: '180px' }} />
           </a>
         </Card>
       </div>
-      <div class="col-lg-3 col-md-6 mb-3">
+      <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.accenture.com/ca-en" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Accenture} className="smaller-image" style={{ width: '100%', height: '150px' }} />
+            <Card.Img variant="top" src={Accenture} className="smaller-image" style={{ width: '100%', height: '180px' }} />
           </a>
         </Card>
       </div>
       <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '100%', height: '150px' }} />
+            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '100%', height: '180px', padding:'10px' }} />
           </a>
         </Card>
       </div>
       <div class="col-lg-3 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.cgi.com/en" target="_blank" rel="noreferrer" class="centered-image" >
-            <Card.Img variant="top" src={Cgi} className="smaller-image" style={{ width: '100%', height: '150px',padding:'40px' }} />
+            <Card.Img variant="top" src={Cgi} className="smaller-image" style={{ width: '100%', height: '180px',padding:'40px' }} />
           </a>
         </Card>
       </div>
@@ -147,31 +147,31 @@ const styles ={
 <div class="community-sponsors text-center">
   <h3>Community Sponsors</h3>
   <div class="d-flex justify-content-center align-items-center flex-wrap">
-    <div class="col-lg-2 col-md-6 mb-3">
+    <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://developer.microsoft.com/en-us/reactor/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Microsoft} className="smaller-image" style={{ width: '100%', height: '100px' }} />
+          <Card.Img variant="top" src={Microsoft} className="smaller-image" style={{ width: '100%', height: '150px' }} />
         </a>
       </Card>
     </div>
-    <div class="col-lg-2 col-md-6 mb-3">
+    <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://investbrampton.ca/locate-here/innovation-district/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Brampton} className="smaller-image" style={{ width: '100%', height: '100px' }}/>
+          <Card.Img variant="top" src={Brampton} className="smaller-image" style={{ width: '100%', height: '150px' }}/>
         </a>
       </Card>
     </div>
-    <div class="col-lg-2 col-md-6 mb-3">
+    <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://www.redbull.com/ca-en/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '100px' }}/>
+          <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '150px', padding:'40px' }}/>
         </a>
       </Card>
     </div>
-    <div class="col-lg-2 col-md-6 mb-3">
+    <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://mule.to/p5it" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: '100%', height: '100px' }}/>
+          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: '100%', height: '150px',padding:'5px' }}/>
         </a>
       </Card>
     </div>
